@@ -7,6 +7,7 @@ class Project(models.Model):
     image = models.ImageField(verbose_name="Imagen", upload_to="projects")              #Campo de imagen
     created = models.DateTimeField(auto_now_add=True, verbose_name="Fecha de creación") #Campo de fecha donde se añade la hora automáticamente al crearse 
     updated = models.DateTimeField(auto_now=True, verbose_name="Fecha de edición")      #Campo de fecha donde se añade la hora automáticamente siempre
+    link = models.URLField(verbose_name = "Dirección web", null=True, blank=True)
 
     class Meta: #Clase de metadatos
         verbose_name = "proyecto"           #Asignar nombre en singular
