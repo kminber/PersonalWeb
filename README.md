@@ -4,3 +4,6 @@ Proyecto de ejemplo de página web personal usando el framework Django programad
 
 ## English
 Personal web page example project using the Django framework programmed in Python and HTML.
+
+### License
+See the [LICENSE](LICENSE) file for details.
